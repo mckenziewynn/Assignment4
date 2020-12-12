@@ -3,3 +3,27 @@
   padding: 0;
   border: 0;
 }
+
+header {
+  background: purple;
+  color: white;
+  padding: 30px 15px;
+}
+
+section {
+  padding: 20px;
+  max-width: 500;
+  margin: 10px 0;
+}
+
+.top-section {
+  background: lightgreen;
+}
+
+.middle-section {
+  background: lightblue;
+}
+
+.bottom-section {
+  background: lightpink;
+}
