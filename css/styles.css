@@ -8,16 +8,29 @@ header {
   background: purple;
   color: white;
   padding: 30px 15px;
+  position: fixed;
+  width: 100%;
+  top:0;
+  z-index: 99;
+}
+
+h2 {
+  position: relative;
+  margin-top: 107px;
 }
 
 section {
   padding: 20px;
   max-width: 500;
   margin: 10px 0;
+  width: 20%;
 }
 
 .top-section {
   background: lightgreen;
+  margin-top: 107px;
+  position: relative;
+  z-index: 0;
 }
 
 .middle-section {
@@ -26,4 +39,11 @@ section {
 
 .bottom-section {
   background: lightpink;
+}
+
+.name {
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+  z-index: 99;
 }
