@@ -17,6 +17,7 @@ header {
 h2 {
   position: relative;
   margin-top: 107px;
+  text-align: center;
 }
 
 .custom-text {
@@ -35,7 +36,6 @@ nav a {
   padding: 2px 20px;
 }
 
-
 .me {
   margin:100px 0;
   width: 300px;
@@ -43,8 +43,17 @@ nav a {
 }
 
 .me:hover {
-  width: 600px;
+  width: 400px;
   transition: 3s;
+}
+
+.sun {
+  margin: 100px;
+  position: absolute;
+  width: 200px;
+  animation-name: rise;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
 }
 section {
   padding: 20px;
@@ -62,7 +71,7 @@ section {
 
 .top-section .smiley {
   float:right;
-  width: 60px
+  width: 40px
 
 }
 
@@ -79,4 +88,17 @@ section {
   position: absolute;
   top: 0;
   z-index: 99;
+}
+
+
+
+
+
+@keyframes rise {
+  from {
+    transform: translateY(1000px);
+  }
+  to {
+    transform: translateY(-100px);
+  }
 }
