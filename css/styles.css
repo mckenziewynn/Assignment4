@@ -19,6 +19,10 @@ h2 {
   margin-top: 107px;
 }
 
+.custom-text {
+  color: lightpink
+}
+
 section {
   padding: 20px;
   max-width: 500;
@@ -31,6 +35,12 @@ section {
   margin-top: 107px;
   position: relative;
   z-index: 0;
+}
+
+.top-section .smiley {
+  float:right;
+  width: 60px
+
 }
 
 .middle-section {
